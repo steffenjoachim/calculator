@@ -31,6 +31,6 @@ Move the slider to switch between the themes.
 ## File Structure
 
 - `index.html`: The main HTML file for the calculator UI.
-- `styles.css`: Contains the styles for the calculator, including the three themes.
-- `app.js`: JavaScript functionality for the calculator, including event listeners for button clicks and the theme switcher.
+- `style.css`: Contains the styles for the calculator, including the three themes.
+- `script.js`: JavaScript functionality for the calculator, including event listeners for button clicks and the theme switcher.
 - `README.md`: This file, providing an overview of the project.
