@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    
+    <main>
+        <header>
+            <p>calc</p>
+            <section class="theme-toggle">
+                <p class="theme">THEME</p>
+                <div class="theme-control">
+                    <section class="theme-numbers">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </section>
+                    <input type="range" min="1" max="3" value="1" class="slider" id="themeSlider">
+                </div>
+            </section>
+        </header>
+        <article class="calculator">
+            <section class="output">
+                <input type="text" id="output" disabled>
+            </section>
+            <section class="buttons">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn del">DEL</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn" disabled>+</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn" disabled>-</button>
+                <button class="btn point" disabled>.</button>
+                <button class="btn">0</button>
+                <button class="btn" disabled>/</button>
+                <button class="btn" disabled>x</button>
+                <button class="btn reset">Reset</button>
+                <button class="btn equal">=</button>
+            </section>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
